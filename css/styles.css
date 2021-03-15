@@ -1,1 +1,66 @@
 
+		body {
+    	background: url("image.jpg");
+    	background-size: cover;
+    	background-position: center center; 
+    	}
+		body,
+		html {
+    		font-family: "Lato";
+    		color: white;
+   		}
+		h1 {
+			font-weight: 700;
+			font-size: 5em;
+			color: darkblue;
+		}
+		h2 {
+			font-weight: 400;
+			font-size: 3em;
+			color: darkblue;
+		}
+		h4{
+				font-size: 3em;			
+		}
+		input{
+  				border:none;
+  				outline:none;
+  				height:34px;
+  				bottom:14px;
+  				right:9px;
+  				border-radius:22px;
+  				width:220px;
+  				box-sizing:border-box;
+  				padding:0 18px; 
+			}
+		.jumbotron{
+				margin-top: 3%;
+		}
+		button,#text1,#text2{
+				position: center;
+				text-align: center;
+				width: auto ;
+				grid-auto-rows: center;
+  				position: center;
+
+		}
+		.content{
+			color: white;
+			padding-top: 8%;
+			text-align: center;
+		}
+		hr {
+    		width: 400px;
+    		border-top: 1px solid #f8f8f8;
+    		border-bottom: 1px solid rgba(0,0,0,0.2);
+		}
+
+		#text1,#text2{
+			color: yellow;
+			font-family: cursive;
+			background: #85929E;
+		}
+		::placeholder { 
+  			color: yellow;
+		}
+
